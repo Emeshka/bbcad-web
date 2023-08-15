@@ -1,0 +1,20 @@
+import { Link } from "react-router-dom";
+import { projectList } from "../mock-data";
+
+export function Projects() {
+  return (
+    <>
+      <h1>Projects</h1>
+      <p>Here you find the list of your projects:</p>
+      <ul>
+        {
+          projectList.map((project) => (
+            <li key={project.tag}>
+              <Link to={project.tag}>{project.name}</Link>
+            </li>
+          ))
+        }
+      </ul>
+    </>
+  )
+}
