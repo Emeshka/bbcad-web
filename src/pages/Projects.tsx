@@ -1,16 +1,7 @@
 import { Link } from "react-router-dom";
+import { projectList } from "../mock-data";
 
 export function Projects() {
-  const projectList = [
-    {
-      tag: 'mikroskhema_ekran_'+(new Date(2023, 4, 18).getTime().toString()),
-      name: 'микросхема-экран'
-    },
-    {
-      tag: 'mikroskhema_krutilka_'+(new Date(2023, 5, 10).getTime().toString()),
-      name: 'Микросхема крутилка'
-    }
-  ]
   return (
     <>
       <h1>Projects</h1>
