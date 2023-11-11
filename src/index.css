@@ -1,3 +1,14 @@
-:root {
+body {
   font-family: sans-serif;
+  margin: 0;
+}
+
+.button-primary {
+  background: #7525a0;
+  font-family: monospace;
+}
+
+.button-secondary {
+  background: #dae4e4;
+  font-family: monospace;
 }

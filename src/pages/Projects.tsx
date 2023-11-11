@@ -4,8 +4,8 @@ import { projectList } from "../mock-data";
 export function Projects() {
   return (
     <>
-      <h1>Projects</h1>
-      <p>Here you find the list of your projects:</p>
+      <h1>Boards</h1>
+      <p>Here you find the list of your boards:</p>
       <ul>
         {
           projectList.map((project) => (
