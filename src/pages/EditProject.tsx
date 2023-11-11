@@ -3,7 +3,7 @@ import { projectList } from "../mock-data";
 
 export function EditProject() {
   const { projectTag } = useParams();
-  const project = projectList.find((pr) => pr.tag === projectTag)
+  const project = projectList.find((pr) => pr.id === projectTag)
 
   return (
     <>

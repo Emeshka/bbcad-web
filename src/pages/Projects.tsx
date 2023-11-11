@@ -9,8 +9,8 @@ export function Projects() {
       <ul>
         {
           projectList.map((project) => (
-            <li key={project.tag}>
-              <Link to={project.tag}>{project.name}</Link>
+            <li key={project.id}>
+              <Link to={project.id}>{project.name}</Link>
             </li>
           ))
         }

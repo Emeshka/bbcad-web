@@ -1,10 +1,10 @@
 export const projectList = [
   {
-    tag: 'mikroskhema_ekran_'+(new Date(2023, 4, 18).getTime().toString()),
+    id: '1234',
     name: 'микросхема-экран'
   },
   {
-    tag: 'mikroskhema_krutilka_'+(new Date(2023, 5, 10).getTime().toString()),
+    id: '5678',
     name: 'Микросхема крутилка'
   }
 ]
