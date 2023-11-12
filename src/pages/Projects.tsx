@@ -10,7 +10,7 @@ export function Projects() {
         {
           projectList.map((project) => (
             <li key={project.id}>
-              <Link to={project.id}>{project.name}</Link>
+              <Link to={'project/'+project.id}>{project.name}</Link>
             </li>
           ))
         }
